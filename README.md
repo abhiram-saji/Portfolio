@@ -1,15 +1,15 @@
 A personal portfolio website built using the Django web framework. It showcases skills, projects, a downloadable resume, and a working contact form. Designed with modern UI/UX and responsiveness in mind, it's perfect for developers looking to highlight their profile professionally.
 
 Key Features:
-🧑‍💼 Home/About section with profile and bio
+Home/About section with profile and bio
 
-📥 Downloadable resume
+Downloadable resume
 
-📨 Contact form (email sending with SMTP)
+Contact form (email sending with SMTP)
 
-📱 Fully responsive design
+Fully responsive design
 
-⚡ Smooth scroll and animations (with JavaScript/CSS)
+Smooth scroll and animations (with JavaScript/CSS)
 
 Tech Stack:
 Backend: Django, Python
