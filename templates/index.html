@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhiram Saji | Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static "assets/css/style.css" %}" />
+</head>
+<body>
+  <aside class="sidebar">
+    <img src="{% static "assets\images\abhi.png" %}" alt="Profile Image" class="profile-img floating">
+    <h1>Abhiram Saji</h1>
+    <div class="tagline">Python Developer</div>
+
+    <div class="info">
+      <div>
+        <i class="fas fa-envelope"></i> 
+        <strong>EMAIL</strong><br>
+        abhiram@example.com
+      </div>
+      <div>
+        <i class="fas fa-phone"></i> 
+        <strong>PHONE</strong><br>
+        +91 81379658
+      </div>
+      <div>
+        <i class="fas fa-calendar-day"></i> 
+        <strong>BIRTHDAY</strong><br>
+        Nov 08, 2002
+      </div>
+      <div>
+        <i class="fas fa-map-marker-alt"></i> 
+        <strong>LOCATION</strong><br>
+        Thodupuzha, Idukki, Kerala
+      </div>
+    </div>    
+    <div class="social-links">
+      <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>  
+  </aside>
+
+  <main class="main-content">
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li>
+          <button class="navbar-link active" data-nav-link data-target="about">
+            <i class="fas fa-user"></i> About
+          </button>
+        </li>
+        <li>
+          <button class="navbar-link" data-nav-link data-target="resume">
+            <i class="fas fa-file-alt"></i> Resume
+          </button>
+        </li>
+        <li>
+          <button class="navbar-link" data-nav-link data-target="contact">
+            <i class="fas fa-envelope"></i> Contact
+          </button>
+        </li>
+      </ul>            
+    </nav>
+     
+    <section class="page active" data-page="about">
+      <h2>About Me</h2>
+      <p>I'm a passionate Web Developer with expertise in creating responsive, user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I specialize in building seamless digital experiences that combine functionality with aesthetic appeal.</p>
+    
+      <div class="about-content">
+        <div class="about-text">
+          <p>Based in Kerala, India, I bring 10 months of professional experience in web development, where I've honed my skills in Python, Django, and php. My approach combines technical precision with creative problem-solving to deliver solutions that exceed user expectations.</p>
+          
+          <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying the natural beauty of Kerala. I'm constantly learning and adapting to stay at the forefront of web development trends.</p>
+          
+          <div class="what-i-do">
+            <div class="card">
+              <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+              <p>Building robust, scalable web applications using modern technologies like  Django  with a focus on performance and maintainability.</p>
+            </div>
+            <!-- <div class="card">
+              <h3><i class="fas fa-mobile-alt"></i> Responsive Design</h3>
+              <p>Creating fluid layouts that provide optimal viewing experiences across all devices, from mobile phones to desktop monitors.</p>
+            </div> -->
+            <div class="card">
+              <h3><i class="fas fa-database"></i> Backend Solutions</h3>
+              <p>Developing efficient server-side architectures and database structures to power dynamic web applications.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills">
+          <h3>My Skills</h3>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>HTML/CSS</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>JavaScript</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Python/Django</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Php</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Sql</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="page" data-page="resume">
+      <h2>Resume</h2>
+         
+      <div class="resume-content">
+        <h3>ABHIRAM SAJI</h3>
+        <h4>PYTHON DEVELOPER</h4>
+    
+        <div class="resume-section">
+          <h5>Professional Summary</h5>
+          <p>Innovative  Developer with a Bachelor's in Computer Applications and hands-on experience in building web applications. Specialized in Python, Django, and modern JavaScript frameworks with a proven ability to deliver high-quality solutions within deadlines. Strong problem-solving skills combined with a keen eye for design and user experience.</p>
+        </div>
+    
+        <div class="resume-section">
+          <h5>Work Experience</h5>
+          <div class="job">
+            <h4>Cyber Prism Software Solution - Muvattupuzha</h4>
+            <p><strong>Python Developer | Aug 2024 - April 2025</strong></p>
+            <ul>
+              <li>Possess strong knowledge of Python and Django framework, with hands-on experience in building scalable web applications</li>
+              <li>Experienced in Django templates, middleware, and class-based views for efficient backend development.</li>
+              <li>Actively participated in code reviews, improving code quality and promoting team learning</li>
+              <li>Adapted quickly to new technologies and frameworks to meet project requirements.</li>
+              <li>Mentored junior developers in Django best practices and code optimization techniques</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="resume-section">
+          <h5>Education</h5>
+          <div class="job">
+            <h4>Bachelor of Computer Applications</h4>
+            <p><strong>University of Kerala | 2021 - 2024</strong></p>
+            <ul>
+              <li>Graduated </li>
+              <li>Specialized in Web Technologies and Database Systems</li>
+              <li><strong>Project:</strong> Doctor Consulting System | <strong>Tech Stack:</strong> Python, Django, HTML, CSS, JavaScript, SQLite</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="resume-section">
+          <h5>Technical Skills</h5>
+          <div class="job">
+            <ul>
+              <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap</li>
+              <li><strong>Backend:</strong> Python, Django, Php, Sql</li>
+              <li><strong>Databases:</strong> PostgreSQL, MySQL</li>
+              <li><strong>DevOps:</strong> Git, GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="page" data-page="contact">
+      <h2>Get In Touch</h2>
+      <p>I'm currently available for freelance projects and full-time opportunities. Let's discuss how I can help bring your ideas to life!</p>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out for collaborations, job opportunities, or just to say hello. I'll get back to you as soon as possible.</p>
+          
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>abhiram@example.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+91 81379658</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Thodupuzha, Idukki, Kerala, India</p>
+              </div>
+            </div>
+          </div>
+          
+          <h4 style="margin-top: 30px; color: var(--primary);">Follow Me</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <h3>Send Me a Message</h3>
+          <form action="" method="POST">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            </div>
+            
+            <div class="form-group">
+              <label for="message"><i class="fas fa-comment"></i> Your Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+            </div>
+            
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="{% static "assets/js/script.js" %}" ></script>
+</body>
+</html>
